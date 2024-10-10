@@ -36,6 +36,15 @@ document.querySelectorAll('.toggle-content').forEach(function(h2) {
   });
 });
 
+function mostrarDescricao(id) {
+  const descricao = document.getElementById(id);
+  if (descricao.style.display === "block") {
+      descricao.style.display = "none";
+  } else {
+      descricao.style.display = "block";
+  }
+}
+
 
 // Selecionar todos os links com o atributo href começando com #
 const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
