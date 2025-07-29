@@ -1,0 +1,118 @@
+/* --- Estilos para a Página de Regulamento e Inscrições --- */
+
+.page-header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.page-header h1 {
+    font-size: 2.8rem;
+    color: var(--color-standard-top);
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 10px auto 0;
+    color: #555;
+}
+
+.regulamento-container {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.regulamento-container article h2 {
+    font-size: 1.8rem;
+    color: var(--color-standard-top);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.regulamento-container article p,
+.regulamento-container article li {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+}
+
+.regulamento-container article ul {
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+/* --- Estilos para o Call-to-Action e Botão WhatsApp --- */
+
+.cta-whatsapp {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.cta-whatsapp h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cta-whatsapp p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background-color: #25D366; /* Cor oficial do WhatsApp */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px; /* Botão em formato de pílula */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.05);
+    background-color: #128C7E; /* Cor mais escura ao passar o mouse */
+}
+
+.whatsapp-btn img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+/* --- Botão Flutuante de WhatsApp --- */
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 100;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-float img {
+    width: 32px;
+    height: 32px;
+}
